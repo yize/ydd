@@ -1,89 +1,9 @@
-# Product Introduction | DingTalk YiDa Help Center
+# 产品功能介绍
 
-In today's information age, the flexibility and adaptability of applications are particularly important for enterprises. Therefore, choosing a platform that can support multiple application scenarios and business models becomes crucial. YiDa is such an application building platform that can meet enterprise needs. This article introduces the basic functions of YiDa.
+跳到主要内容首页帮助手册用户手册精品模板手册更新日志使用案例表单专题自定义页面专题连接器专题实用工具专题报表专题公式专题方案专题更新日志历史文档场景方案开发者手册搭建技巧使用案例视频中心示例中心开发者中心开发者手册低代码直播开发者论坛校企合作简体中文简体中文English日本語搜索用户手册宜搭简介什么是宜搭？产品功能介绍宜搭页面类型宜搭界面介绍宜搭数据安全宜搭名词释义产品计费快速开始表单管理流程设计集成&自动化门户设计报表设计聚合表设计大屏设计自定义页面酷应用平台管理应用管理AI专区插件中心国际化专属宜搭私有化宜搭联系我们开发者功能（需有代码基础）用户手册宜搭简介产品功能介绍本页总览产品功能介绍
 
-📌 Due to multiple updates to the YiDa help manual, [click here](https://pre-docs.aliwork.com/docs/yida_qalist/uw8g7tx57vgg5mq1) to view the old version.
 
-## Core Advantages
 
-YiDa's core advantage is that based on Alibaba Cloud's infrastructure and DingTalk's enterprise digital operating system, it can easily provide each organization with a new model of low-code, high-efficiency digital business application production. Every application produced on YiDa naturally has the characteristics of interconnection, data-driven, and secure.
+在当今信息化的时代，应用程序的灵活性和适应性对于企业来说尤为重要。因此，选择一个能够支持多种应用场景和业务模式的平台变得尤为关键。宜搭就是这样一款能够满足企业需求的应用搭建平台，本文介绍宜搭的产品基本功能。📌因宜搭帮助手册经历多次更新，若需查看旧版帮助手册，请点击此处查看。核心优势​宜搭的核心优势是，其基于阿里云的云基础设施和钉钉的企业数字化操作系统，可以轻易地为每个组织提供低门槛、高效率的数字化业务应用生产新模式。在宜搭上生产的每个应用都天然具备互联互通、数据驱动和安全可靠的特点。核心优势说明易连接200+高频连接器，从线下到线上，深度连接阿里云与钉钉，消除企业数据孤岛，助力传统软件现代化。酷数据亿级数据能力，更低的数据BI门槛，企业业务数据全面打通，一键拥有数字化大屏。强扩展全面开放组件、服务、页面定制和Open API，具有更强的扩展能力让构建变简单。更安全通过阿里云安全底座及混合云存储架构，提供存储安全、业务安全、数据管控等全方位安全保障。核心能力​宜搭的核心能力分为基础能力、体系能力、开放连接和高扩展性四个部分，你可以参考以下内容了解宜搭的核心能力。基础能力​宜搭基础能力提供了灵活的表单搭建能力、数字化的企业审批流程和丰富的数据处理及图表能力。你可以使用宜搭基础能力快速的搭建个性化应用。表单能力为你提供了丰富的字段类型，通过数据联动，关联表单，公式运算等能力，实现灵活的低代码可视化设计和页面搭建的功能。其中表单搭建能力分为普通表单和流程表单两种。普通表单通常用于数据收集和事件跟进。流程表单通常用于业务审批和任务协同。审批流程提供了丰富流程设计能力，支持流程节点新增、删除、编辑、配置节点审批人、审批规则、条件设置、节点动作等。宜搭报表提供了丰富的数据图表和数据处理能力，高效的可视化方案能为客户提供数据分析和洞察价值。体系能力​使用宜搭创建的应用还支持打通钉钉组织架构，配置灵活高效的权限管控体系。并且还支持发送钉钉消息通知的能。权限管理能力提供了权限自定义配置，满足灵活高效性的要求，分层分级的权限管理体系，保障权责一致，数据安全的一体化管控。通过打通钉钉组织架构及关联组织，实现钉钉组织内的角色，流程，数据，消息等互通，支持跨组织业务协同。通过深度整合钉钉的消息能力，使应用支持工作通知、待办、快捷卡片消息、邮件等多种灵活通知方式，满足各种业务场景。开放连接​打通阿里云和钉钉的底层能力和技术，将企业原有系统与钉钉连接，降低企业数字化门槛。强大的连接器能力可连接钉钉一方能力，如工作通知、待办、考勤等。同时支持自定义连接器， 实现钉钉宜搭与生态或三方应用的资源数据打通。宜搭平台为用户、生态伙伴开放openAPI，操作宜搭数据，灵活构建应用。更多扩展性​宜搭具有出色的可扩展性和易维护性。它可以与阿里云其他产品无缝集成，实现数据共享和协同办公。同时，宜搭还支持自定义业务流程和数据字段，提供更加灵活的业务流程管理和优化方案。历史文章内容:历史文档（停止维护）​购买指南基础概念I日-付贵功能智能问答宜搭数据连接指南一图看懂宜搭宜搭2级网络域名的升级公告平台管理应用管理表单管理2.0报表组件（停止维护）
 
-| Core Advantage | Description |
-|---------------|-------------|
-| Easy Connect | 200+ high-frequency connectors, from offline to online, deeply connecting Alibaba Cloud and DingTalk, eliminating enterprise data silos, and helping modernize traditional software. |
-| Data Analytics | Billions of data capabilities, lower data BI thresholds, comprehensive enterprise business data integration, one-click digital dashboard. |
-| Strong Extension | Fully open components, services, page customization, and Open API, with stronger extension capabilities to simplify building. |
-| More Secure | Provides comprehensive security guarantees including storage security, business security, and data control through Alibaba Cloud security foundation and hybrid cloud storage architecture. |
-
-## Core Capabilities
-
-YiDa's core capabilities are divided into four parts: basic capabilities, system capabilities, open connections, and high extensibility. You can refer to the following to understand YiDa's core capabilities.
-
-### Basic Capabilities
-
-YiDa basic capabilities provide flexible form building, digitized enterprise approval processes, and rich data processing and charting capabilities. You can use YiDa basic capabilities to quickly build personalized applications.
-
-![Form Builder](images/product-intro-form-builder.png)
-
-- **Form Capabilities** provide rich field types, with data linkage, form associations, formula calculations, and other capabilities to achieve flexible low-code visual design and page building. Form building capabilities include regular forms and process forms.
-  - Regular forms are typically used for data collection and event tracking.
-  - Process forms are typically used for business approval and task collaboration.
-
-![Process Form](images/product-intro-process-form.png)
-
-- **Approval Process** provides rich process design capabilities, supporting process node addition, deletion, editing, node approver configuration, approval rules, condition settings, node actions, and more.
-
-![Approval Flow](images/product-intro-approval-flow.png)
-
-- **YiDa Reports** provide rich data charts and data processing capabilities. Efficient visualization solutions can provide customers with data analysis and insight value.
-
-![Reports](images/product-intro-report.png)
-
-### System Capabilities
-
-Applications created with YiDa also support integration with DingTalk organizational structure, flexible and efficient permission control systems, and the ability to send DingTalk notifications.
-
-- **Permission Management** provides customizable permission configuration, meeting flexible and efficient requirements with layered and graded permission management systems to ensure consistent rights and responsibilities and integrated data security control.
-
-![Permission](images/product-intro-permission.png)
-
-- Through integration with DingTalk organizational structure and associated organizations, achieve interoperability of roles, processes, data, and messages within DingTalk organizations, supporting cross-organizational business collaboration.
-
-![Organization Structure](images/product-intro-org-structure.png)
-
-- Through deep integration of DingTalk's messaging capabilities, applications support work notifications, to-dos, quick card messages, emails, and other flexible notification methods to meet various business scenarios.
-
-![Notification](images/product-intro-notification.png)
-
-### Open Connection
-
-Connect Alibaba Cloud and DingTalk's underlying capabilities and technologies, connecting enterprise original systems with DingTalk to lower enterprise digital thresholds.
-
-**Powerful Connector Capabilities**
-
-![Connectors](images/product-intro-connectors.png)
-
-- Can connect DingTalk's first-party capabilities such as work notifications, to-dos, attendance, etc. Also supports custom connectors to achieve resource data integration between YiDa and ecosystem or third-party applications.
-- YiDa platform provides open APIs for users and ecosystem partners to operate YiDa data and flexibly build applications.
-
-![OpenAPI](images/product-intro-openapi.png)
-
-### More Extensibility
-
-YiDa has excellent extensibility and maintainability. It can seamlessly integrate with other Alibaba Cloud products to achieve data sharing and collaborative office. At the same time, YiDa also supports custom business processes and data fields, providing more flexible business process management and optimization solutions.
-
----
-
-## Historical Documents (Discontinued)
-
-- [Purchase Guide](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/iif7ge)
-- [Basic Concepts](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/li89l7)
-- [I-Day Payment Features](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/lmvsctyt7rxtgsrq)
-- [Intelligent Q&A](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/acw45zugyx9bz7yn)
-- [YiDa Data Connection Guide](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/pk4mrn)
-- [YiDa at a Glance](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/gc4xqz4da954lhsg)
-- [YiDa Level 2 Domain Name Upgrade Notice](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/tyrgag)
-- [Platform Management](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/cmggzu)
-- [Application Management](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/uop0b0ndpgc0gevb)
-- [Form Management](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/sk2s4ft0ic8tdqzn)
-- [2.0 Report Components (Discontinued)](https://docs.aliwork.com/docs/yida_support/uw8g7tx57vgg5mq1/yxgxg6)
+  此文档对您是否有帮助？如需帮助，请访问 宜搭社区  进行讨论。如果您想通过视频学习，请关注 低代码宝典  进行学习。核心优势​核心能力​基础能力​体系能力​开放连接​更多扩展性​历史文档（停止维护）​钉钉扫码,关注宜搭服务窗微信扫码,关注宜搭公众号微信扫码,关注宜搭视频号快捷入口帮助中心更新日志版本价格开发者中心更多开发者社区关于宜搭向团队推荐宜搭联系我们售前咨询技术支持生态与伙伴宜搭阿里云官网Copyright © 2026钉钉（中国）信息技术有限公司和／或其关联公司浙ICP备18037475号-4
