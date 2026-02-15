@@ -1,0 +1,9 @@
+---
+title: 应用分发协议说明
+url: https://docs.aliwork.com/docs/yida_support/_11/_2/ymt5eevh432paorp/rta1izrlucw1oslz
+source: docs.aliwork.com
+---
+
+# 应用分发协议说明
+
+请遵守 [宜搭服务使用规则](https://terms.alicdn.com/legal-agreement/terms/platform_service/20221024104443437/20221024104443437.html) 条款约束，确保分发内容符合使用规则及国家法律法规。

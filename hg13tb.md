@@ -1,0 +1,12 @@
+---
+title: 流程任务中心
+url: https://docs.aliwork.com/docs/yida_support/_2/ea1o8cgypga0lh9t/hg13tb
+source: docs.aliwork.com
+---
+
+# 流程任务中心
+
+用户发起的流程，除了能在钉钉消息或者钉钉待办查到，也会出现在宜搭的任务中心以及流程任务中心里，以下我们讲述的是流程任务中心。
+## 流程任务中心简介[​](#ySPBw)
+当我们创建好一个应用，进入应用，左侧就能看到流程任务中心。左侧流程任务中心分别对应：**待我处理**：等待当前登录人处理的流程。**我已处理**：当前登录人已经处理完成的审批任务。**我创建的**：当前登录人创建��审批任务。**抄送我的**：抄送给当前登录人的审批流程。流程的任务中心默认是灰色的，不会显示在应用的访问页面，你需要手动将其设置为可见。![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1727597944030-45bec410-0962-4eba-badd-bb5caae5280c.png)
+取消任务中心隐藏后，你就可以在应用的访问状态看到待我处理、我已处理、我创建的和抄送我的这些流程任务记录。![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1727598319698-32740b90-36ba-4a8b-9c3f-e158cb761e9a.png)

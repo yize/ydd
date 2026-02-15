@@ -1,0 +1,13 @@
+---
+title: 图片上传规范
+url: https://docs.aliwork.com/docs/yida_support/_4/oev74db459i1m6zp/qrop72wua78mllp5
+source: docs.aliwork.com
+---
+
+# 图片上传规范
+
+## 图片尺寸规范：[​](#XakM3)
+**说明：**
+双端图片单独配置，当仅上传PC端图片时移动端根据PC端图片自动裁剪
+PC端尺寸规范：为防图片模糊，输出3倍大图【 尺寸为 5760px*720px 】，小于3M背景图“有效内容（比如：文案）”在版头图保证居中对齐，设置的页面宽度（常规、中宽、超宽）保持一致备注：页面宽度，常规= 1180px；中宽=1440px；超宽=1920px![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1688377355791-0daef1b6-dc75-4f7b-9ccf-34f025d53749.png)
+移动端尺寸规范：为防图片模糊，输出3倍大图【 尺寸为 1125px*480px 】，小于3M![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1688377366573-a095c355-d547-4e51-88f4-0c0443ea84a8.png)

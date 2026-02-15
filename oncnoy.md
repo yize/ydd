@@ -1,0 +1,11 @@
+---
+title: 创建应用
+url: https://docs.aliwork.com/docs/yida_support/_11/oncnoy
+source: docs.aliwork.com
+---
+
+# 创建应用
+
+在宜搭平台中，一个应用实质上是一个由多个[**表单**](https://www.yuque.com/yida/support/ybuoxl)和[**报表**](https://www.yuque.com/yida/support/aii2tp)构建的业务管理系统。可以将应用看作是一座工厂，其中包含着各异的生产线，共同协作实现功能整合。不同的应用能够灵活组合，形成大小各异的业务管理系统，并且各个应用之间还能够实现深度关联与对接。目前宜搭为你提供五种创建应用的方法，你可以参考以下文档创建应用。[从模板创建应用](https://www.yuque.com/yida/support/azug2fdryfcfguhd)[从空白应用创建](https://www.yuque.com/yida/support/xmh0ian8a2cqs2w6)[从 Excel 创建应用](https://www.yuque.com/yida/support/ct0gzd)[智能创建应用](https://www.yuque.com/yida/support/hwh6t00ibo0z92yg)[定制应用](https://www.yuque.com/yida/support/bmprxs4wo1odv1zs)[添加外部链接](https://www.yuque.com/yida/support/nolqql)
+## 常见问题[​](#ivY8D)
+**Q：一���应用最多可以创建多少个页面？**目前免费版应用最多可创建 25 个页面，其他版本的应用最多可创建 500 个页面，建议应用内页面数不要太多，否则会影响应用性能。**应用内表单权限组有上限吗，最多可以配置多少个权限组？**普通页面最多创建 100 个权限组。如果是表单页面，那么**提交权限组**和**查看权限组**分别为 100 个。**Q：宜搭应用的操作日志能否导出？是否可以查看、删除或修改的记录 ？**A：应用操作记录日志目前暂不支持查看，目前只能查看页面维度的页面历史保存记录，且无法导出该信息。

@@ -1,0 +1,13 @@
+---
+title: 数据管理智能问数
+url: https://docs.aliwork.com/docs/yida_support/_12/du6zs1ze7inyxws3/sc4arzq05wwel5d5
+source: docs.aliwork.com
+---
+
+# 数据管理智能问数
+
+宜搭 AI 智能问数支持在数据管理页内使用，通过 AI 问数可以显著提升你的数据分析体验，减少构建复杂报表的时间和精力。相反，你只需通过简洁的自然语言提问，即可迅速获得详尽的数据分析结果。[https://cloud.video.taobao.com/vod/kg1yuP1Str4Ng8XTStbJSDX2-EUXbHZFome4qSpjthE.mp4](https://cloud.video.taobao.com/vod/kg1yuP1Str4Ng8XTStbJSDX2-EUXbHZFome4qSpjthE.mp4)
+## 使用方式[​](#lCTQW)
+在表单数据管理页面上，你可以使用宜搭 AI 来分析数据。无论是简单的数据量统计，还是更复杂的问题，只需通过对话向宜搭 AI 提问，它就能迅速给出答案。例如：“各选择采购订单的数据量”、“数据量占比”、“近3个月（包括2024年12月）各选择采购订单的入库总金额Top 5”等。如下图所示，目前已支持在数据管理页的顶部、列标题和单元格内进行问答。![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1735097355281-bfd5ca08-69c1-4233-833c-b6937d806c03.png)
+## 一键转播报卡片[​](#pWfh7)
+并且，你还可以将宜搭 AI 助理回复你的消息内容，一键转为播报卡片。你只需点击**生成播报卡片**，然后在卡片投放页开启投放，即可将该卡片按既定规则推送到群聊、人员。![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1735041400186-ef85c889-ebe4-409b-ae3c-e56fe3a735cf.png)

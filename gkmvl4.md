@@ -1,0 +1,13 @@
+---
+title: 结束节点
+url: https://docs.aliwork.com/docs/yida_support/_2/lgrp0w/wm9aa1/gkmvl4
+source: docs.aliwork.com
+---
+
+# 结束节点
+
+结束节点代表了整个流程的终点，正确配置的流程应该一步一步最终走到这个节点，代表流程结束。结束节点上可以配置关联操作，当流程结果为同意、拒绝或者被撤销、终止的情况下进行执行
+## 配置结束节点[​](#hHvOW)
+进入高级流程设计页面。单击**结束节点**，在右侧属性栏单击**高级**。单击**节点提交规则**后的**设置**按钮。![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1729065540470-af43f2ae-6cbe-4ada-8bd6-c06b91aac595.png)
+## 相关文档[​](#Skov3)
+[公式函数](https://www.yuque.com/yida/support/cnzrgo)[业务关联公式](https://www.yuque.com/yida/support/ydmx04)

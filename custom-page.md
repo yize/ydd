@@ -1,0 +1,22 @@
+---
+title: 自定义页面组件
+url: https://docs.aliwork.com/docs/yida_support/_8/zqpbaq
+source: docs.aliwork.com
+---
+
+# 自定义页面组件
+
+| **能力** | **免费版** | **轻享版** | **专业版** | **专属版** |
+|---|---|---|---|---|
+| 自定义页面 | 不支持 | 不支持 | 支持 | 支持 |
+## 1. 简介[​](#NNFHT)
+**自定义页面中的组件相比表单页面的组件配置属性更丰富、更灵活，组件使用方法请参考**** **[**开发者中心**](https://www.aliwork.com/developer/)** 中的组件示例。**
+自定义页面中的组件分为【布局】、【基础】、【表单】、【高级】和【其他】，相应的组件如下：
+![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1639720780437-cc534a13-295a-4f25-aaf2-b07556ec772b.png)
+![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/png/1639720794461-f4a2ab4b-dfe7-4928-9e2f-2fcb4d177701.png)
+### 1.1 自定义页面组件及用途[​](#T2Kpm)
+**组件名称****用途**[文本](https://www.aliwork.com/developer/text)展示文本内容。[图片](https://www.aliwork.com/developer/image)展示图片内容。[图标](https://www.aliwork.com/developer/icon)提供多个图标样式可选择。[链接](https://www.aliwork.com/developer/link)添加一个链接地址，点击链接即可跳转对应页面。[链接块](https://www.aliwork.com/developer/link-block)链接块是一个容器类型组件，点击该容器内任意元素，都会触发跳转链接。[按钮](https://www.aliwork.com/developer/button)可通过按钮的动作事件触发执行效果，例如：点击按钮获取当前时间。[视频播放](https://www.aliwork.com/developer/video)用于页面播放视频，提供多种播放方式。[对话框](https://www.aliwork.com/developer/dialog)可在以下场景中使用：需要给用户一个提示需要用户进行确认操作需要用户处理事务，又不希望跳转页面以致打断工作流程时[Drawer](https://www.aliwork.com/developer/drawer)可在以下场景中使用：需要给用户一个提示需要用户进行确认操作需要用户处理事务，又不希望跳转页面以致打断工作流程时[表格](https://www.aliwork.com/developer/table-pc)可在表格中展示表单/流程表单的数据。[HTML](https://www.aliwork.com/developer/html)允许你进行一些自定义的功能开发，其中页面设计需要有一定的前端基础，至少需要掌握 HTML、CSS、JS 等相关的基础知识。[JSX](https://www.aliwork.com/developer/jsx)允许你通过 jsx 代码渲染一个完全自定义的组件，一般用于纯展示的场景。[轮播](https://www.aliwork.com/developer/slider)将所需展示的多张图片循环轮动展示。[气泡提示](https://www.aliwork.com/developer/ballon)自定义页面循环展示数据时，当数据内容过长时，就会发生显示不完整的情况，这时我们可以使用气泡提示，当鼠标划过时可自动展示完整内容。折叠面板当页面组件过多较为繁杂时，可用折叠面板将组件折叠起来。[底部通栏](https://www.aliwork.com/developer/banner-container)允许你在页面底部添加内容，并且内容固定在页面底部和占据通栏。[Iframe](https://www.aliwork.com/developer/iframe)允许你将其他网页的内容嵌入到你当前的设计器页面中，一般用于纯展示的场景。[进度指示器](https://www.aliwork.com/developer/progress)展示项目的运行进度。[翻页器](https://www.aliwork.com/developer/pagination)当自定义页面里有数据，想要分页展示的时候，可使用这个翻页器。[搜索](https://www.aliwork.com/developer/search)当自定义页面使用表格组件时，可用搜索组件搜索表格中某条数据。[查询](https://www.aliwork.com/developer/filter)当自定义页面中使用自定义表格展示数据后，顶部操作的搜索只能搜索某一列数据，如果需要对数据多列进行搜索，就可以使用查询组件来实现。[菜单](https://www.aliwork.com/developer/menu)将自定义页面作为一个目录，点击某些选项进行页面跳转。[树形控件](https://www.aliwork.com/developer/tree)当使用一个种类想要查看子类的时候，可以使用自定义页面里的树形控件。[时间轴](https://www.aliwork.com/developer/timeline)一般用于公司发展历程或项目运行时间。[步骤](https://www.aliwork.com/developer/step)自定义页面的步骤条组件，适用于制作派遣人员信息录入，登录信息注册等，可以对基本信息的填写进度作提醒。
+## 2. 组件高级用法[​](#KVvUd)
+### 2.1 新建一个按钮控件点击可跳转其他表单 ？[​](#izyzF)
+### 2.2 动态控制 Iframe 的显示[​](#QPaBt)
+--------------------欢迎关注我们--------------------![](https://yida-support.oss-cn-shanghai.aliyuncs.com/static/jpeg/1631861711706-8b6b606d-26db-4978-8416-d588b2d155c9.jpeg)

@@ -1,0 +1,10 @@
+---
+title: 2025年9月 私有化版更新
+url: https://docs.aliwork.com/docs/yida_support/_16/ascznsty4oipt7mm
+source: docs.aliwork.com
+---
+
+# 2025年9月 私有化版更新
+
+## 私有化版体验优化 [​](#iXhyR)
+fix：自建通讯录，点击账号的编辑按钮，邮箱无法正常显示（显示为为空）fix：端内新建页面，会跳转到浏览器，提示页面无法访问fix：菜单定位除「平台管理」之外的页面，个人头像不显示个人信息入口fix：邮箱管理，帮助手册地址替换feat：数犀产品图标替换
