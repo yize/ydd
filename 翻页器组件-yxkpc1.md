@@ -1,0 +1,82 @@
+# 翻页器组件
+
+|
+**能力**
+**免费版**
+**轻享版**
+**专业版**
+**专属版**
+|
+翻页器组件
+不支持
+不支持
+支持
+支持
+
+## 1. 使用场景​
+
+当自定义页面里有数据，想要分页展示的时候，可以使用这个翻页器。
+组件属性以及使用和示例请**点击此处**查看
+## 2. 视频展示​
+
+## 3. 操作步骤​
+
+### 3.1 新建一个普通表单​
+
+表单里拖拽一个单行文本，点击保存，返回应用首页，我们可以往这个表单里添加一些数据
+### 3.2 新建一个自定义页面​
+
+在自定义页面拖拽一个容器组件，在容器组件里添加一个文本组件和一个翻页器组件，可以通过大纲树来查看组件嵌套的样式
+如图所示：
+
+自定义页面
+### 3.3 新建远程数据源​
+
+在自定义页面，点击左边的数据源，选择添加，新建一个远程 API，名称可以任意修改
+
+自定义页面数据源
+点击请求地址，在下面这个接口处修改成需要的接口
+'/${window.pageConfig.appType || window.g_config.appKey}/v1/form/searchFormDatas.json'
+可查看接口文档：宜搭平台接口（页面数据源可直接调用）
+
+请求参数也需要去修改或者直接点击添加一项。通过文档可以看到参数名为 formUuid
+参数值：应用首页 >> 应用设置 >> 部署运维 >> 选择对应的表单 ID
+
+应用设置
+
+点击数据处理右边的加号，创建一个请求完成回调函数，点击保存
+
+添加数据源
+### 3.4 容器组件循环数据​
+
+点击大纲树，点击容器组件，找到右边的循环数据，点击变量绑定，在 searchFormDatas 这个远程 API 后面加 .data 点击确定保存。
+
+### 3.5 变量绑定​
+
+点击自定义页面的文本，找到右边内容的变量绑定，填写 this.item.formData. 普通表单里单行文本的唯一标识符
+
+formData 为下图中的 formData，在编辑页面点击预览，右键点击检查，找到 console，找到 formData
+
+### 3.6 新建变量数据源​
+
+点击左边的数据源，创建一个变量（图为 pageSizeA）,只需修改名字即可
+
+### 3.7 新建动作​
+
+点击翻页器，找到右下角的动作设置，新建动作，创建两个动作（如图显示为页码改变和每页显示数改变），动作创建完成后会自动弹出左边的 JS 面板，可以在里面写代码，通过重新加载数据源实现。
+
+export function didMount() {  console.log(`「页面 JS」：当前页面地址 ${location.href}`);  // console.log(`「页面 JS」：当前页面 id 参数为 ${this.state.urlParams.id}`);  // 更多 this 相关 API 请参考：https://developers.aliwork.com/  // document.title = window.loginUser.userName + ' | 宜搭'; }/*** Pagination onChange* @param currentPagination 当前页码值*/export function onChange(currentPagination) {  let params = {    currentPage: currentPagination  };  this.dataSourceMap.dp4.load(params);  console.log('onChange', currentPagination);}/*** Pagination onPageSizeChange* @param pageSize 改变后的每页显示记录数*/export function onPageSizeChange(pageSize) {  this.setState({    pageSizeA: pageSize  });  let params = {    pageSize: pageSize,  };  this.dataSourceMap.dp4.load(params);  console.log('onPageSizeChange', pageSize);}
+
+### 3.8 变量绑定（总记录数和当前页码）​
+
+（1）点击翻页器右边的总记录数的变量绑定 state.searchFormDatas.totalCount（totalCount 为总数），点击确定
+
+（2）点击当前页码的变量绑定 state.searchFormDatas.currentPage（currentPage 为当前页），点击确定
+
+### 3.9 pageSize 变量绑定​
+
+点击 pageSize 的变量绑定，通过 JS 代码中的三目运算符：state.pageSizeA?state.pageSize:5 去判断当前页面可展示的数据
+
+点击确定，保存返回首页。
+
+--------------------欢迎关注我们--------------------

@@ -1,0 +1,118 @@
+# 步骤条
+
+|
+**能力**
+**免费版**
+**轻享版**
+**专业版**
+**专属版**
+|
+步骤条
+不支持
+不支持
+支持
+支持
+
+步骤条组件是自定义页面的高级组件。
+## 1. 使用场景​
+
+自定义页面的步骤条组件，适用于制作派遣人员信息录入，登录信息注册等，可以对基本信息的填写进度作提醒。
+组件属性以及使用和示例请**点击此处**查看
+
+步骤条演示
+## 2. 组件基础属性​
+
+步骤组件属性设置
+### 2.1 当前步骤属性​
+
+数字类型，控制当前步骤所在步骤数据的状态，如果步骤数据的状态都是默认，那么当前步骤就会显示进行中的状态，
+之前的步骤显示已完成，后面的步骤显示等待。
+
+当前步骤属性
+### 2.2 类型属性​
+
+步骤条的类型分为cricle圆型，arrow箭型，dot点型，如图为以下三种样式。
+
+步骤条类型属性样式
+### 2.3 展示方向​
+
+步骤条的展示方向可以设置水平和垂直，其中箭型不能设置垂直样式。
+
+步骤条展示方向属性样式
+### 2.4 内容排列属性​
+
+内容排列属性只有cricle类型支持，箭型和点型不支持这个属性，所以选择了这两种类型后不会。
+
+步骤条内容排列属性样式
+### 2.5 只读模式​
+
+默认关闭只读模式，允许点击步骤节点，可以执行在步骤节点设置的自定义动作。
+开启只读默认，
+不允许点击步骤节点，
+不会触发自定义动作。
+设置节点的自定义动作：
+
+步骤条自定义动作
+以下代码可以直接复制到JS面板
+export function onClick(index) {  this.utils.toast({    title: `当前点击的index：${index}`  });  if(index == 0){    this.utils.router.push('https://www.aliwork.com', {}, true, true)  }}
+
+## 3. 组件高级配置​
+
+### 3.1 数据格式​
+
+|
+**字段**
+**名称**
+**说明**
+|
+title
+标题
+|
+content
+内容
+如不传，会根据外层的 Step 的 当前步骤(current) 属性生成，可选值为 wait, process, finish,
+|
+status
+状态
+|
+icon
+图标
+|
+percent
+百分比
+|
+disabled
+是否禁用
+
+[    {        "title": "step1",        "content": "内容",        "status": "wait",        "icon": "smile",        "percent": 100,        "disabled": false,    },    {        "title": "step2",        "content": "内容",        "status": "wait",        "icon": "smile",        "percent": 100,        "disabled": false,    },]
+
+### 3.2 动态设置步骤数据​
+
+步骤条的步骤数据绑定变量数据源，拖动一个按钮组件，设置点击动作。当点击时更改变量数据源内的值来实现动态设置步骤数据的功能，[表单演示参考](https://www.aliwork.com/o/buzhoutiaogongneng?ddtab=true)。
+
+绑定变量数据源
+
+设置按钮组件的动作
+以下代码可以直接复制到 JS 面板
+//添加一项绑定动作设置export function onClickAdd(){  console.log('onClick');  const data = this.state.demoData  data.push({    'title': 'newStep',    'content': '新增内容'  })  this.setState({    demoData: data,    currentData: this.state.currentData + 1  })}
+
+### 3.3 典型案例​
+
+点击表单，直接查看步骤条实现效果：[点击查看](https://www.aliwork.com/o/dianxinganli?ddtab=true)
+设置变量数据源，默认值为 0。给步骤条的当前步骤属性绑定变量数据源。
+
+绑定变量数据源3.3.1 准备操作​（1）设置容器组件的唯一标识，将需要填写的组件数据放置在容器组件中，根据容器组件的显示隐藏控制下一步需要填写的组件显隐。​
+
+设置容器组件唯一标识（2）设置提交成功/失败的提示文本、图标和样式，这里使用变量数据源控制容器组件显隐​
+
+设置数据源控制容器显隐
+
+block_3容器绑定变量数据源（3）给按钮组件绑定动作，其中下一步，重新提交和再次提交按钮共用一个 onclick 动作。​
+
+按钮组件绑定动作（4）步骤节点设置自定义点击动作 onclick2​
+
+步骤条绑定动作+效果演示
+以下代码可以直接复制到 JS 面板，注意：需要替换组件的唯一标识
+/*** button onClick*/export function onClick() {  let formCurrent = this.state.formCurrent  switch (formCurrent) {    //第一次点击formCurrent是0    case 0:        this.$("block_1").set("behavior", "HIDDEN")        this.$("block_2").set("behavior", "NORMAL")        this.setState({          formCurrent: formCurrent + 1        })      break;    case 1:        this.$("block_2").set("behavior", "HIDDEN")        //随机成功或者失败。后续可以调用数据源用请求的返回结果判断成功或者失败。        const isSuccess = Math.random() < 0.5 ? "block_3_type" : "block_4_type";        console.log(isSuccess)        this.setState({          formCurrent: formCurrent + 1,          [isSuccess]: "NORMAL",          action: "HIDDEN"        })      break;    case 2:    //将容器1组件值重置为空      this.$("textField_ktjfxslga").reset()      this.$("textField_ktjfxslh").reset()      this.$("textField_ktjfxslj").reset()      this.$("textField_ktjfxslk").reset()      this.$("textareaField_ktjfxslm").reset()    //将容器2组件值重置为空      this.$("textField_ktjfxsln").reset()      this.$("textField_ktjfxslo").reset()      this.$("textField_ktjwwsj5").reset()      this.$("textareaField_ktjfxsls").reset()    //将容器1显示，容器2隐藏      this.$("block_1").set("behavior", "NORMAL")      this.$("block_2").set("behavior", "HIDDEN")      this.setState({        formCurrent: 0,        action: "NORMAL",        block_3_type: "HIDDEN",        block_4_type: "HIDDEN"      })      break;  }}/** * FusionStep onClick * @param value 节点索引 */export function onClick2(index) {  this.utils.toast({    title: `当前点击的index：${index}`  });  if(index == 0){    this.setState({      formCurrent: 0,      action: "NORMAL",      block_3_type: "HIDDEN",      block_4_type: "HIDDEN"    })    this.$("block_1").set("behavior", "NORMAL")    this.$("block_2").set("behavior", "HIDDEN")  }}
+
+--------------------欢迎关注我们--------------------
